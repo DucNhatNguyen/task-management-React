@@ -1,4 +1,5 @@
-import './App.scss';
+/* eslint-disable react/react-in-jsx-scope */
+import './App.scss'
 
 // custom compnent
 import AppBar from 'components/AppBar/AppBar'
@@ -9,13 +10,11 @@ import BoardContent from 'components/BoardContent/BoardContent'
 function App() {
   return (
     <div className="trello-trungquandev-master">
-     <AppBar />
-     <BoardBar />
-     <BoardContent />
-     
-      
+      <AppBar />
+      <BoardBar />
+      <BoardContent />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
