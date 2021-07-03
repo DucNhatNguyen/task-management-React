@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;400&display=swap');
 
 $gap: 10px;
+
+//appbar + boardbar + boardcontent = 100vh
+$narbar-app-height: 5vh;
+$narbar-board-height: 6vh;
+$board-content-height: 88vh;
+
 $board-bg-color: #0079bf;
 $common-element-bg: rgba(255, 255, 255, .24 );
 
